@@ -32,6 +32,19 @@
 		FA3835A9277CED2000DC49C8 /* PrototypeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835A8277CED2000DC49C8 /* PrototypeCard.swift */; };
 		FA3835AB277CEEE200DC49C8 /* VisaCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835AA277CEEE200DC49C8 /* VisaCard.swift */; };
 		FA3835AE277CF6AA00DC49C8 /* CardSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835AD277CF6AA00DC49C8 /* CardSingleton.swift */; };
+		FA3835B2277D0B2300DC49C8 /* ApprovedLoanHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835B1277D0B2300DC49C8 /* ApprovedLoanHandler.swift */; };
+		FA3835B4277D0C3C00DC49C8 /* GoldHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835B3277D0C3C00DC49C8 /* GoldHandler.swift */; };
+		FA3835B6277D0D5300DC49C8 /* PlatiniumHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835B5277D0D5300DC49C8 /* PlatiniumHandler.swift */; };
+		FA3835B8277D0DB000DC49C8 /* BlackHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835B7277D0DB000DC49C8 /* BlackHandler.swift */; };
+		FA3835BA277D0E6500DC49C8 /* BankHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835B9277D0E6500DC49C8 /* BankHandler.swift */; };
+		FA3835BD277D18C000DC49C8 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835BC277D18C000DC49C8 /* Command.swift */; };
+		FA3835BF277D19BE00DC49C8 /* CreditCardReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835BE277D19BE00DC49C8 /* CreditCardReceiver.swift */; };
+		FA3835C1277D1B2A00DC49C8 /* CreditCardActiveCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835C0277D1B2A00DC49C8 /* CreditCardActiveCommand.swift */; };
+		FA3835C3277D1CDD00DC49C8 /* CreditCardDisabledCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835C2277D1CDD00DC49C8 /* CreditCardDisabledCommand.swift */; };
+		FA3835C5277D1D3400DC49C8 /* CreditCardInvoker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835C4277D1D3400DC49C8 /* CreditCardInvoker.swift */; };
+		FA3835C8277D231200DC49C8 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835C7277D231200DC49C8 /* CreditCard.swift */; };
+		FA3835CA277D23F700DC49C8 /* CreditCardsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835C9277D23F700DC49C8 /* CreditCardsCollection.swift */; };
+		FA3835CC277D248000DC49C8 /* CreditCardIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835CB277D248000DC49C8 /* CreditCardIterator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +75,19 @@
 		FA3835A8277CED2000DC49C8 /* PrototypeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeCard.swift; sourceTree = "<group>"; };
 		FA3835AA277CEEE200DC49C8 /* VisaCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCard.swift; sourceTree = "<group>"; };
 		FA3835AD277CF6AA00DC49C8 /* CardSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSingleton.swift; sourceTree = "<group>"; };
+		FA3835B1277D0B2300DC49C8 /* ApprovedLoanHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApprovedLoanHandler.swift; sourceTree = "<group>"; };
+		FA3835B3277D0C3C00DC49C8 /* GoldHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoldHandler.swift; sourceTree = "<group>"; };
+		FA3835B5277D0D5300DC49C8 /* PlatiniumHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatiniumHandler.swift; sourceTree = "<group>"; };
+		FA3835B7277D0DB000DC49C8 /* BlackHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackHandler.swift; sourceTree = "<group>"; };
+		FA3835B9277D0E6500DC49C8 /* BankHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankHandler.swift; sourceTree = "<group>"; };
+		FA3835BC277D18C000DC49C8 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		FA3835BE277D19BE00DC49C8 /* CreditCardReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardReceiver.swift; sourceTree = "<group>"; };
+		FA3835C0277D1B2A00DC49C8 /* CreditCardActiveCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardActiveCommand.swift; sourceTree = "<group>"; };
+		FA3835C2277D1CDD00DC49C8 /* CreditCardDisabledCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardDisabledCommand.swift; sourceTree = "<group>"; };
+		FA3835C4277D1D3400DC49C8 /* CreditCardInvoker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardInvoker.swift; sourceTree = "<group>"; };
+		FA3835C7277D231200DC49C8 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
+		FA3835C9277D23F700DC49C8 /* CreditCardsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsCollection.swift; sourceTree = "<group>"; };
+		FA3835CB277D248000DC49C8 /* CreditCardIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardIterator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +120,7 @@
 		FA38356E277CBC6E00DC49C8 /* Patrones_Diseno */ = {
 			isa = PBXGroup;
 			children = (
+				FA3835AF277D0AE000DC49C8 /* behavioral */,
 				FA383583277CC13D00DC49C8 /* creational */,
 				FA38356F277CBC6E00DC49C8 /* AppDelegate.swift */,
 				FA383571277CBC6E00DC49C8 /* SceneDelegate.swift */,
@@ -172,6 +199,50 @@
 			path = singleton;
 			sourceTree = "<group>";
 		};
+		FA3835AF277D0AE000DC49C8 /* behavioral */ = {
+			isa = PBXGroup;
+			children = (
+				FA3835C6277D230400DC49C8 /* iterator */,
+				FA3835BB277D188100DC49C8 /* command */,
+				FA3835B0277D0B0800DC49C8 /* chainResponsibility */,
+			);
+			path = behavioral;
+			sourceTree = "<group>";
+		};
+		FA3835B0277D0B0800DC49C8 /* chainResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				FA3835B1277D0B2300DC49C8 /* ApprovedLoanHandler.swift */,
+				FA3835B3277D0C3C00DC49C8 /* GoldHandler.swift */,
+				FA3835B5277D0D5300DC49C8 /* PlatiniumHandler.swift */,
+				FA3835B7277D0DB000DC49C8 /* BlackHandler.swift */,
+				FA3835B9277D0E6500DC49C8 /* BankHandler.swift */,
+			);
+			path = chainResponsibility;
+			sourceTree = "<group>";
+		};
+		FA3835BB277D188100DC49C8 /* command */ = {
+			isa = PBXGroup;
+			children = (
+				FA3835BC277D18C000DC49C8 /* Command.swift */,
+				FA3835BE277D19BE00DC49C8 /* CreditCardReceiver.swift */,
+				FA3835C0277D1B2A00DC49C8 /* CreditCardActiveCommand.swift */,
+				FA3835C2277D1CDD00DC49C8 /* CreditCardDisabledCommand.swift */,
+				FA3835C4277D1D3400DC49C8 /* CreditCardInvoker.swift */,
+			);
+			path = command;
+			sourceTree = "<group>";
+		};
+		FA3835C6277D230400DC49C8 /* iterator */ = {
+			isa = PBXGroup;
+			children = (
+				FA3835C7277D231200DC49C8 /* CreditCard.swift */,
+				FA3835C9277D23F700DC49C8 /* CreditCardsCollection.swift */,
+				FA3835CB277D248000DC49C8 /* CreditCardIterator.swift */,
+			);
+			path = iterator;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,15 +314,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3835BF277D19BE00DC49C8 /* CreditCardReceiver.swift in Sources */,
+				FA3835B8277D0DB000DC49C8 /* BlackHandler.swift in Sources */,
 				FA3835A3277CD37500DC49C8 /* PaymentMethodClient.swift in Sources */,
 				FA383574277CBC6E00DC49C8 /* ViewController.swift in Sources */,
 				FA3835AB277CEEE200DC49C8 /* VisaCard.swift in Sources */,
+				FA3835C5277D1D3400DC49C8 /* CreditCardInvoker.swift in Sources */,
+				FA3835B6277D0D5300DC49C8 /* PlatiniumHandler.swift in Sources */,
 				FA3835A6277CE12800DC49C8 /* Card.swift in Sources */,
 				FA383591277CC8F000DC49C8 /* PaymentAF.swift in Sources */,
 				FA383570277CBC6E00DC49C8 /* AppDelegate.swift in Sources */,
 				FA38359B277CCEE700DC49C8 /* PaymentInAdvanceMethod.swift in Sources */,
 				FA3835A9277CED2000DC49C8 /* PrototypeCard.swift in Sources */,
 				FA38358C277CC46700DC49C8 /* TypePayment.swift in Sources */,
+				FA3835BD277D18C000DC49C8 /* Command.swift in Sources */,
 				FA383595277CCC8200DC49C8 /* GooglePaymentAF.swift in Sources */,
 				FA38358A277CC41A00DC49C8 /* CardPayment.swift in Sources */,
 				FA383588277CC3DF00DC49C8 /* GooglePayment.swift in Sources */,
@@ -259,12 +335,20 @@
 				FA383597277CCCE900DC49C8 /* Method.swift in Sources */,
 				FA383593277CC93600DC49C8 /* CardPaymentAF.swift in Sources */,
 				FA383599277CCE6E00DC49C8 /* MontlyMethod.swift in Sources */,
+				FA3835B4277D0C3C00DC49C8 /* GoldHandler.swift in Sources */,
+				FA3835CC277D248000DC49C8 /* CreditCardIterator.swift in Sources */,
 				FA38359D277CCFB300DC49C8 /* AbstractFactory.swift in Sources */,
 				FA3835A1277CD30E00DC49C8 /* MontlyGoogleFactory.swift in Sources */,
+				FA3835CA277D23F700DC49C8 /* CreditCardsCollection.swift in Sources */,
 				FA383586277CC3B100DC49C8 /* Payment.swift in Sources */,
+				FA3835B2277D0B2300DC49C8 /* ApprovedLoanHandler.swift in Sources */,
 				FA383572277CBC6E00DC49C8 /* SceneDelegate.swift in Sources */,
+				FA3835C8277D231200DC49C8 /* CreditCard.swift in Sources */,
 				FA38359F277CD1D600DC49C8 /* PaymentInAdvanceCardFactory.swift in Sources */,
 				FA3835AE277CF6AA00DC49C8 /* CardSingleton.swift in Sources */,
+				FA3835C3277D1CDD00DC49C8 /* CreditCardDisabledCommand.swift in Sources */,
+				FA3835C1277D1B2A00DC49C8 /* CreditCardActiveCommand.swift in Sources */,
+				FA3835BA277D0E6500DC49C8 /* BankHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

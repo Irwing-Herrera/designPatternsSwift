@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        /// Creacionales
+        /// Creacionales --------------------------------------------------------------------------------
         
         // Factory Method
         //self.testFactoryMethod()
@@ -27,7 +27,42 @@ class ViewController: UIViewController {
         //self.testPrototype()
         
         // Singleton
-        self.testSingleton()
+        //self.testSingleton()
+        
+        
+        /// Behavioral -----------------------------------------------------------------------------------
+        
+        // Chain of Responsability
+        //self.testChainOfResponsability()
+        
+        // Command
+        //self.testCommand()
+        
+        // Iterator
+        self.testIterator()
+    }
+    
+    private func testIterator() {
+        let misTrajetas = CreditCardsCollection()
+        misTrajetas.append(CreditCard(type: "Gold"))
+        misTrajetas.append(CreditCard(type: "Platinum"))
+        misTrajetas.append(CreditCard(type: "Black"))
+        
+        for card in misTrajetas {
+            print(card.type)
+        }
+    }
+    
+    private func testCommand() {
+        let creditCard = CreditCardReceiver()
+        let invoker = CreditCardInvoker()
+        invoker.setCommand(command: CreditCardActiveCommand.init(creditCardReceiver: creditCard))
+        invoker.run()
+    }
+    
+    private func testChainOfResponsability() {
+        let bank = BankHandler()
+        bank.creditCardRequest(totalLoan: 5_0000)
     }
     
     private func testSingleton() {
