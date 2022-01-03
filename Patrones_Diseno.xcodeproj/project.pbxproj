@@ -45,6 +45,20 @@
 		FA3835C8277D231200DC49C8 /* CreditCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835C7277D231200DC49C8 /* CreditCard.swift */; };
 		FA3835CA277D23F700DC49C8 /* CreditCardsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835C9277D23F700DC49C8 /* CreditCardsCollection.swift */; };
 		FA3835CC277D248000DC49C8 /* CreditCardIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3835CB277D248000DC49C8 /* CreditCardIterator.swift */; };
+		FA456099278356AD009A26EF /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA456098278356AD009A26EF /* Mediator.swift */; };
+		FA45609B27835708009A26EF /* Colleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA45609A27835708009A26EF /* Colleague.swift */; };
+		FA45609D278357BD009A26EF /* ConcreteColleague1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA45609C278357BD009A26EF /* ConcreteColleague1.swift */; };
+		FAEA14CB278364B300B5A4DF /* ConcreteColleague2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA14CA278364B300B5A4DF /* ConcreteColleague2.swift */; };
+		FAEA14CD2783650000B5A4DF /* ConcreteMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA14CC2783650000B5A4DF /* ConcreteMediator.swift */; };
+		FAEA14D0278369E300B5A4DF /* ArticleMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA14CF278369E300B5A4DF /* ArticleMemento.swift */; };
+		FAEA14D227836A5B00B5A4DF /* ArticleOriginator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA14D127836A5B00B5A4DF /* ArticleOriginator.swift */; };
+		FAEA14D427836B4B00B5A4DF /* Carataker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA14D327836B4B00B5A4DF /* Carataker.swift */; };
+		FAEA15792783756600B5A4DF /* TrafficLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA15782783756600B5A4DF /* TrafficLight.swift */; };
+		FAEA157B2783765000B5A4DF /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA157A2783765000B5A4DF /* Observer.swift */; };
+		FAEA157D2783771600B5A4DF /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA157C2783771600B5A4DF /* Subject.swift */; };
+		FAEA157F278377D500B5A4DF /* MessagePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA157E278377D500B5A4DF /* MessagePublisher.swift */; };
+		FAEA158127837A0300B5A4DF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA158027837A0300B5A4DF /* Car.swift */; };
+		FAEA158327837CB400B5A4DF /* Pedestrian.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEA158227837CB400B5A4DF /* Pedestrian.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -88,6 +102,20 @@
 		FA3835C7277D231200DC49C8 /* CreditCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCard.swift; sourceTree = "<group>"; };
 		FA3835C9277D23F700DC49C8 /* CreditCardsCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardsCollection.swift; sourceTree = "<group>"; };
 		FA3835CB277D248000DC49C8 /* CreditCardIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardIterator.swift; sourceTree = "<group>"; };
+		FA456098278356AD009A26EF /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		FA45609A27835708009A26EF /* Colleague.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colleague.swift; sourceTree = "<group>"; };
+		FA45609C278357BD009A26EF /* ConcreteColleague1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteColleague1.swift; sourceTree = "<group>"; };
+		FAEA14CA278364B300B5A4DF /* ConcreteColleague2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteColleague2.swift; sourceTree = "<group>"; };
+		FAEA14CC2783650000B5A4DF /* ConcreteMediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteMediator.swift; sourceTree = "<group>"; };
+		FAEA14CF278369E300B5A4DF /* ArticleMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleMemento.swift; sourceTree = "<group>"; };
+		FAEA14D127836A5B00B5A4DF /* ArticleOriginator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleOriginator.swift; sourceTree = "<group>"; };
+		FAEA14D327836B4B00B5A4DF /* Carataker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carataker.swift; sourceTree = "<group>"; };
+		FAEA15782783756600B5A4DF /* TrafficLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLight.swift; sourceTree = "<group>"; };
+		FAEA157A2783765000B5A4DF /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		FAEA157C2783771600B5A4DF /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		FAEA157E278377D500B5A4DF /* MessagePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePublisher.swift; sourceTree = "<group>"; };
+		FAEA158027837A0300B5A4DF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		FAEA158227837CB400B5A4DF /* Pedestrian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pedestrian.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +230,9 @@
 		FA3835AF277D0AE000DC49C8 /* behavioral */ = {
 			isa = PBXGroup;
 			children = (
+				FAEA15772783751300B5A4DF /* observer */,
+				FAEA14CE278369D100B5A4DF /* memento */,
+				FA45609727835695009A26EF /* mediator */,
 				FA3835C6277D230400DC49C8 /* iterator */,
 				FA3835BB277D188100DC49C8 /* command */,
 				FA3835B0277D0B0800DC49C8 /* chainResponsibility */,
@@ -241,6 +272,41 @@
 				FA3835CB277D248000DC49C8 /* CreditCardIterator.swift */,
 			);
 			path = iterator;
+			sourceTree = "<group>";
+		};
+		FA45609727835695009A26EF /* mediator */ = {
+			isa = PBXGroup;
+			children = (
+				FA456098278356AD009A26EF /* Mediator.swift */,
+				FA45609A27835708009A26EF /* Colleague.swift */,
+				FA45609C278357BD009A26EF /* ConcreteColleague1.swift */,
+				FAEA14CA278364B300B5A4DF /* ConcreteColleague2.swift */,
+				FAEA14CC2783650000B5A4DF /* ConcreteMediator.swift */,
+			);
+			path = mediator;
+			sourceTree = "<group>";
+		};
+		FAEA14CE278369D100B5A4DF /* memento */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA14CF278369E300B5A4DF /* ArticleMemento.swift */,
+				FAEA14D127836A5B00B5A4DF /* ArticleOriginator.swift */,
+				FAEA14D327836B4B00B5A4DF /* Carataker.swift */,
+			);
+			path = memento;
+			sourceTree = "<group>";
+		};
+		FAEA15772783751300B5A4DF /* observer */ = {
+			isa = PBXGroup;
+			children = (
+				FAEA15782783756600B5A4DF /* TrafficLight.swift */,
+				FAEA157A2783765000B5A4DF /* Observer.swift */,
+				FAEA157C2783771600B5A4DF /* Subject.swift */,
+				FAEA157E278377D500B5A4DF /* MessagePublisher.swift */,
+				FAEA158027837A0300B5A4DF /* Car.swift */,
+				FAEA158227837CB400B5A4DF /* Pedestrian.swift */,
+			);
+			path = observer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -315,25 +381,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA3835BF277D19BE00DC49C8 /* CreditCardReceiver.swift in Sources */,
+				FAEA157B2783765000B5A4DF /* Observer.swift in Sources */,
+				FAEA14D0278369E300B5A4DF /* ArticleMemento.swift in Sources */,
+				FAEA14CD2783650000B5A4DF /* ConcreteMediator.swift in Sources */,
 				FA3835B8277D0DB000DC49C8 /* BlackHandler.swift in Sources */,
 				FA3835A3277CD37500DC49C8 /* PaymentMethodClient.swift in Sources */,
 				FA383574277CBC6E00DC49C8 /* ViewController.swift in Sources */,
 				FA3835AB277CEEE200DC49C8 /* VisaCard.swift in Sources */,
+				FAEA157D2783771600B5A4DF /* Subject.swift in Sources */,
 				FA3835C5277D1D3400DC49C8 /* CreditCardInvoker.swift in Sources */,
 				FA3835B6277D0D5300DC49C8 /* PlatiniumHandler.swift in Sources */,
+				FAEA14CB278364B300B5A4DF /* ConcreteColleague2.swift in Sources */,
 				FA3835A6277CE12800DC49C8 /* Card.swift in Sources */,
 				FA383591277CC8F000DC49C8 /* PaymentAF.swift in Sources */,
+				FAEA14D227836A5B00B5A4DF /* ArticleOriginator.swift in Sources */,
+				FA45609B27835708009A26EF /* Colleague.swift in Sources */,
 				FA383570277CBC6E00DC49C8 /* AppDelegate.swift in Sources */,
 				FA38359B277CCEE700DC49C8 /* PaymentInAdvanceMethod.swift in Sources */,
+				FAEA158327837CB400B5A4DF /* Pedestrian.swift in Sources */,
 				FA3835A9277CED2000DC49C8 /* PrototypeCard.swift in Sources */,
 				FA38358C277CC46700DC49C8 /* TypePayment.swift in Sources */,
 				FA3835BD277D18C000DC49C8 /* Command.swift in Sources */,
 				FA383595277CCC8200DC49C8 /* GooglePaymentAF.swift in Sources */,
+				FA45609D278357BD009A26EF /* ConcreteColleague1.swift in Sources */,
 				FA38358A277CC41A00DC49C8 /* CardPayment.swift in Sources */,
 				FA383588277CC3DF00DC49C8 /* GooglePayment.swift in Sources */,
 				FA38358E277CC4D100DC49C8 /* PaymentFactory.swift in Sources */,
+				FAEA158127837A0300B5A4DF /* Car.swift in Sources */,
+				FA456099278356AD009A26EF /* Mediator.swift in Sources */,
 				FA383597277CCCE900DC49C8 /* Method.swift in Sources */,
 				FA383593277CC93600DC49C8 /* CardPaymentAF.swift in Sources */,
+				FAEA157F278377D500B5A4DF /* MessagePublisher.swift in Sources */,
 				FA383599277CCE6E00DC49C8 /* MontlyMethod.swift in Sources */,
 				FA3835B4277D0C3C00DC49C8 /* GoldHandler.swift in Sources */,
 				FA3835CC277D248000DC49C8 /* CreditCardIterator.swift in Sources */,
@@ -345,7 +423,9 @@
 				FA383572277CBC6E00DC49C8 /* SceneDelegate.swift in Sources */,
 				FA3835C8277D231200DC49C8 /* CreditCard.swift in Sources */,
 				FA38359F277CD1D600DC49C8 /* PaymentInAdvanceCardFactory.swift in Sources */,
+				FAEA14D427836B4B00B5A4DF /* Carataker.swift in Sources */,
 				FA3835AE277CF6AA00DC49C8 /* CardSingleton.swift in Sources */,
+				FAEA15792783756600B5A4DF /* TrafficLight.swift in Sources */,
 				FA3835C3277D1CDD00DC49C8 /* CreditCardDisabledCommand.swift in Sources */,
 				FA3835C1277D1B2A00DC49C8 /* CreditCardActiveCommand.swift in Sources */,
 				FA3835BA277D0E6500DC49C8 /* BankHandler.swift in Sources */,

@@ -39,7 +39,65 @@ class ViewController: UIViewController {
         //self.testCommand()
         
         // Iterator
-        self.testIterator()
+        //self.testIterator()
+        
+        // Mediator
+        //self.testMediator()
+        
+        // Memento
+        //self.testMemento()
+        
+        // Observer
+        self.testObserver()
+    }
+    
+    private func testObserver() {
+        let car = Car()
+        let pedestrian = Pedestrian()
+        var trafficLight = TrafficLight(status: "CAR_GREEN")
+        let messagePublisher = MessagePublisher()
+        
+        messagePublisher.attach(observer: car)
+        messagePublisher.attach(observer: pedestrian)
+        messagePublisher.notifyUpdate(trafficLight: trafficLight)
+        
+        sleep(2)
+        
+        trafficLight.status = "CAR_RED"
+        messagePublisher.notifyUpdate(trafficLight: trafficLight)
+    }
+    
+    private func testMemento() {
+        let carataket = Carataker()
+        var article = ArticleOriginator(id: 1, title: "Memento", text: "Estado 1")
+        
+        carataket.addMemento(memento: article.createMemento())
+        
+        article.text = "Estado 2"
+        print(article.text)
+        
+        carataket.addMemento(memento: article.createMemento())
+        
+        let memento1: ArticleMemento = carataket.getMemento(index: 0)
+        let memento2: ArticleMemento = carataket.getMemento(index: 1)
+        
+        article.restore(memento: memento1)
+        print(article.text)
+        
+        article.restore(memento: memento2)
+        print(article.text)
+    }
+    
+    private func testMediator() {
+        let mediator = ConcreteMediator()
+        let user1 = ConcreteColleague1(mediator: mediator)
+        let user2 = ConcreteColleague2(mediator: mediator)
+        
+        mediator.setColleague1(colleague1: user1)
+        mediator.setColleague2(colleague2: user2)
+        
+        user1.send(message: "Hola usuario 2")
+        user2.send(message: "Hola usuario 1")
     }
     
     private func testIterator() {
