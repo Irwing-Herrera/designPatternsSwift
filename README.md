@@ -3,6 +3,16 @@
 ## Patrones Creacionales Swift: Utiliza estos patrones a la hora de crear instancias
 
 Factory Method Pattern
+-- Liberarnos de la creacion de objetos de la manera correcta, crear una instancia de un objeto que a priori no sabemos de que tipo va a ser.
+
+Ejemplo: 
+Imagínate que has desarrollado una aplicación en el que le dejas al usuario seleccionar el método de pago.
+
+Tarjeta de crédito puede ser PayPal, puede ser Google y puede ser por transferencia bancaria.
+
+Pues realmente, hasta que el usuario no lo selecciona no podría saber qué tipo de pago quiere.
+
+![alt text](https://img.favpng.com/13/21/14/factory-method-pattern-unified-modeling-language-class-diagram-png-favpng-LvQANdyjR7TS3RR87G6rsiUkY.jpg)
 
 Abstract Factory Pattern
 
