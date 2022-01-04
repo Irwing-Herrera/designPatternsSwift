@@ -48,7 +48,70 @@ class ViewController: UIViewController {
         //self.testMemento()
         
         // Observer
-        self.testObserver()
+        //self.testObserver()
+        
+        // State
+        //self.testState()
+         
+        // Strategy
+        //self.testStrategy()
+        
+        // Template Method
+        //self.testTemplateMethod()
+        
+        // Visitor
+        //self.testVisitor()
+        
+        /// Estructurales -----------------------------------------------------------------------------------
+        
+        // Adapter
+        self.testAdapter()
+    }
+    
+    private func testAdapter() {
+        let adaptee = OperationAdaptee(a: 5, b: 10)
+        if adaptee.sum() == 15 {
+            print("Ok Int")
+        }
+        
+        let target = OperationAdapter(adaptee: adaptee)
+        
+        if target.getSum == "15" {
+            print("Ok String")
+        }
+    }
+    
+    private func testVisitor() {
+        let offert = GassolineOffer()
+        offert.accept(visitor: BlackCreditCardVisitor())
+    }
+    
+    private func testTemplateMethod() {
+        let paymentMethodVisa = Visa()
+        paymentMethodVisa.makePayment()
+    }
+    
+    private func testStrategy() {
+        let context = Context(strategyTextFormatter: CapitalStrategyTestFormatter())
+        context.publishText(text: "convertir a mayusculas")
+    }
+    
+    private func testState() {
+        let context = MobileAlertStateContext()
+        context.alert()
+        context.alert()
+        
+        sleep(2)
+        
+        context.setState(state: Vibration())
+        context.alert()
+        context.alert()
+        
+        sleep(2)
+        
+        context.setState(state: Silent())
+        context.alert()
+        context.alert()
     }
     
     private func testObserver() {
