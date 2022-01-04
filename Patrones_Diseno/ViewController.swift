@@ -65,7 +65,87 @@ class ViewController: UIViewController {
         /// Estructurales -----------------------------------------------------------------------------------
         
         // Adapter
-        self.testAdapter()
+        //self.testAdapter()
+        
+        // Bridge
+        //self.testBridge()
+        
+        // Composite
+        //self.testComposite()
+        
+        // Decorator
+        //self.testDecorator()
+        
+        // Facade
+        //self.testFacade()
+        
+        // Flyweight
+        //self.testFlyweight()
+        
+        // Proxy
+        self.testProxy()
+    }
+    
+    private func testProxy() {
+        let internet = ProxyInternet()
+        internet.connectTo(url: "youtube.com")
+        internet.connectTo(url: "google.com")
+        internet.connectTo(url: "netflix.com")
+    }
+    
+    let enemyType = ["Soldier", "Detective"]
+    let weapon = ["Fusil", "Revolver", "Pistola"]
+    
+    private func getRandomEnemyType() -> String {
+        let number = Int.random(in: 0 ..< enemyType.count)
+        return enemyType[number]
+    }
+    
+    private func getRandomWeapon() -> String {
+        let number = Int.random(in: 0 ..< weapon.count)
+        return weapon[number]
+    }
+    
+    private func testFlyweight() {
+        let enemyFactory = EnemyFactory()
+        
+        for _ in 0...10 {
+            let enemy = enemyFactory.getEnemy(type: getRandomEnemyType())
+            enemy.setWeapon(weapon: getRandomWeapon())
+            enemy.lifePoints()
+        }
+    }
+    
+    private func testFacade() {
+        let facade = CreditMarketfacade()
+        
+        facade.showCreditBlack()
+    }
+    
+    private func testDecorator() {
+        let blacInternationalPayment = IntenatinalPaymenyDecorator(decorated: BlackCreditComponent())
+        print("----- Tarjeta Black Configurada -----")
+        blacInternationalPayment.showCredit()
+        print("")
+        let goldInternationalPayment = IntenatinalPaymenyDecorator(decorated: GoldCreditComponent())
+        print("----- Tarjeta Gold Configurada -----")
+        goldInternationalPayment.showCredit()
+    }
+    
+    private func testComposite() {
+        let composite = AccountComposite()
+        composite.addAccount(account: CurrentAccountLead())
+        composite.addAccount(account: SavingsAccountLead())
+        
+        composite.showAccountName()
+    }
+    
+    private func testBridge() {
+        var classic = ClassicCreditCard(creditCard: SecureCreditCard())
+        classic.makePayment() 
+        
+        classic = ClassicCreditCard(creditCard: UnsecureCreditCard())
+        classic.makePayment()
     }
     
     private func testAdapter() {
