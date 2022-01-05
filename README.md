@@ -90,11 +90,46 @@ Template method Pattern
 
 Visitor Pattern
 
-## Patrones Estructurales Swift: Utiliza estos patrones para la composición de tus clases y objetos
+# Patrones Estructurales Swift: Utiliza estos patrones para la composición de tus clases y objetos
 
-Adapter Pattern
+## Adapter Pattern
 
-Bridge Pattern
+-- Permite que las interfaces incompatibles funcionen juntas. Dicho de otra manera, este patrón permite que la interfaz de una clase se convierta en una que pueda ser consumida por el cliente.
+
+Los participantes son:
+
+- Target: la interfaz consumida por el cliente.
+
+- Adapter: adapta la interfaz incompatible a la interfaz de Target.
+
+- Adaptee: la interfaz incompatible.
+
+- Cliente: el consumidor final.
+
+![alt text](https://www.dofactory.com/img/diagrams/net/adapter.gif)
+
+## Bridge Pattern
+
+-- Se utiliza para desacoplar una clase en dos partes, la abstracción y su implementación, de modo que ambas puedan evolucionar en el futuro sin afectarse entre sí. Aumenta el acoplamiento flexible entre la abstracción de clases y su implementación.
+
+Participantes:
+
+- Abstracción (clase abstracta) : Definió la interfaz abstracta, es decir, la parte de comportamiento. También mantiene la referencia de Implementador.
+
+- RefinedAbstraction (clase normal) : Extiende la interfaz definida por Abstraction.
+
+- Implementador (interfaz) : Define la interfaz para las clases de implementación. Esta interfaz no necesita corresponder directamente a la interfaz de abstracción y puede ser muy diferente. El imp de abstracción proporciona una implementación en términos de operaciones proporcionadas por la interfaz del implementador.
+
+- ConcreteImplementor (clase normal) : Implementa la interfaz Implementer.
+
+![alt text](https://media.geeksforgeeks.org/wp-content/uploads/Bridge_Design.png)
+
+Ejemplo: https://medium.com/swiftworld/swift-world-design-patterns-bridge-a20bbe999059
+
+
+
+
+
 
 Composite Pattern
 
