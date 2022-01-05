@@ -52,17 +52,19 @@ Fortalezas
 
 ## Prototype Pattern
 
+--  Este patrón es realmente útil en los casos en que es más barato clonar una instancia existente que crear una instancia de una clase. Este enfoque realmente ayuda cuando las clases para instanciar se especifican en tiempo de ejecución. La construcción de una jerarquía de fábricas que represente una jerarquía de productos puede tener un costo enorme, especialmente en los casos en que solo son posibles unas pocas combinaciones de estado para algún caso concreto. Por lo tanto, el patrón Prototype debe considerarse como una solución liviana para obtener una copia de la instancia de clase existente.
+
+![alt text](https://miro.medium.com/max/1400/1*k445Y_YUwZ-ZypRZYKnhqw.png)
+
 ## Singlenton Pattern
 
+--  Es un patrón de diseño que permite restringir la creación de objetos pertenecientes a una clase o el valor de un tipo a un único objeto.
 
+Su intención consiste en garantizar que una clase solo tenga una instancia y proporcionar un punto de acceso global a ella.
 
+El patrón singleton se implementa creando en nuestra clase un método que crea una instancia del objeto solo si todavía no existe alguna. Para asegurar que la clase no puede ser instanciada nuevamente se regula el alcance del constructor (con modificadores de acceso como protegido o privado).
 
-
-
-
-
-
-
+![alt text](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTFPOMTd9pAO6phQiM4jScWOrcsKyXaQa4rQ&usqp=CAU)
 
 # Patrones de Comportamiento Swift: Utiliza estos patrones para definir la forma en la que interactúan las diferentes clases de tu proyecto.
 
