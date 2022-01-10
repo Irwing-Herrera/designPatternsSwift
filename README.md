@@ -127,11 +127,35 @@ Participantes:
 Ejemplo: https://medium.com/swiftworld/swift-world-design-patterns-bridge-a20bbe999059
 
 
+## Composite Pattern
+
+-- El patrón compuesto describe un grupo de objetos que se tratan de la misma manera que una sola instancia del mismo tipo de objeto. La intención de un compuesto es "componer" objetos en estructuras de árbol para representar jerarquías de parte-todo. La implementación del patrón compuesto permite a los clientes tratar los objetos individuales y las composiciones de manera uniforme.
+
+¿Qué solución describe el patrón de diseño compuesto?
+
+- Defina una Componentinterfaz unificada para Leafobjetos parciales ( Composite) y objetos completos ( ).
+- Los Leafobjetos individuales implementan la Componentinterfaz directamente y los Compositeobjetos envían solicitudes a sus componentes secundarios.
+
+Esto permite a los clientes trabajar a través de la Componentinterfaz para tratar Leafy Compositeobjetos de manera uniforme: los Leafobjetos realizan una solicitud directamente y los Compositeobjetos reenvían la solicitud a sus componentes secundarios de forma recursiva hacia abajo en la estructura de árbol. Esto hace que las clases de cliente sean más fáciles de implementar, cambiar, probar y reutilizar.
+
+
+
+![alt text](https://i.stack.imgur.com/bqHdT.gif)
 
 
 
 
-Composite Pattern
+
+
+
+
+
+
+
+
+
+
+
 
 Decorator Pattern
 
